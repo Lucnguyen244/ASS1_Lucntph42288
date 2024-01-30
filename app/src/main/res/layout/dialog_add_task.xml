@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30sp"
+        android:textColor="#F44336"
+        android:text="Thêm Công Việc"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="name:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_DialogAdd_Name"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/editdn"
+        android:hint="Nhập name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="10sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="content:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_DialogAdd_Content"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/editdn"
+        android:hint="Nhập content"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="10sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="status:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/SP_DialogAdd_Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="start:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_DialogAdd_Start"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/editdn"
+        android:hint="Nhập ngày bắt đầu"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="10sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="end:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_DialogAdd_End"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/editdn"
+        android:hint="Nhập ngày kết thúc"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="10sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="ID user:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_DialogAdd_UserID"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/editdn"
+        android:hint="Nhập ID"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="10sp" />
+    <Button
+        android:id="@+id/btn_DialogAdd_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

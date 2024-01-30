@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#A8C1E4F4"
+    android:padding="10dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/edt_list"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_NameItemTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt_ContentItemTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="content"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt_StatusItemTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt_StartItemTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt_EndItemTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="end"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt_Id_UserItemTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id_User"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Sửa"
+              android:layout_marginRight="8dp"
+              android:backgroundTint="#3F51B5"
+              android:id="@+id/btn_SuaItemTasks"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xoá"
+                android:layout_marginLeft="8dp"
+                android:backgroundTint="#3F51B5"
+                android:id="@+id/btn_XoaItemTasks"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

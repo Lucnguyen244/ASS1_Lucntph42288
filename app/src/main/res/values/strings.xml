@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ASS1_Lucntph42288</string>
+    <string name="ban_quen_matkhau"><u>Bạn quên mật khẩu?</u></string>
+    <string name="dang_ky_tai_khoan">Bạn chưa có tài khoản? <b>ĐĂNG KÝ</b></string>
+    <string name="open">Open Menu</string>
+    <string name="close">Close Menu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

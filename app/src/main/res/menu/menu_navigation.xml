@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/danhsachcongviec"
+        android:title="Danh Sách Công Việc"
+        android:icon="@drawable/checklist"/>
+
+    <group android:checkableBehavior="none">
+        <item android:title="Khác">
+            <menu>
+                <item android:id="@+id/docbao"
+                    android:title="Đọc Báo"
+                    android:icon="@drawable/docbao"/>
+
+                <item android:id="@+id/gioithieu"
+                    android:title="Giới Thiệu Bản Thân"
+                    android:icon="@drawable/introduction"/>
+
+                <item android:id="@+id/CaiDat"
+                    android:title="Cài Đặt"
+                    android:icon="@drawable/settings"/>
+
+                <item android:id="@+id/dangxuat"
+                    android:title="Đăng Xuất"
+                    android:icon="@drawable/logout"/>
+            </menu>
+        </item>
+    </group>
+</menu>

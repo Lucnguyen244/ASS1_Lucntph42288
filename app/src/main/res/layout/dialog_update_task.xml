@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30sp"
+            android:textColor="#F44336"
+            android:text="Sửa Công Việc"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/edt_DialogUpdate_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editdn"
+            android:hint="name" />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/edt_DialogUpdate_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editdn"
+            android:hint="content"/>
+        <Spinner
+            android:layout_marginTop="5dp"
+            android:id="@+id/SP_DialogUpdate_Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/edt_DialogUpdate_Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editdn"
+            android:hint="start"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/edt_DialogUpdate_End"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editdn"
+            android:hint="end"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/edt_DialogUpdate_UserID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editdn"
+            android:hint="ID User"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_DialogUpdate_Add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập Nhật" />
+
+    </LinearLayout>
+</LinearLayout>

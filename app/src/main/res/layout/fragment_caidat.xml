@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment.caidat">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="800sp"
+    android:layout_marginTop="20sp"
+    android:src="@drawable/may"
+    android:scaleType="fitXY"/>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>
